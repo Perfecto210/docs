@@ -220,8 +220,9 @@ $ docker push docker.pkg.github.com/octocat/octo-app/monalisa:1.0
 
 {% else %}
 ```shell
-# Build the image with docker.<em>HOSTNAME/OWNER/REPOSITORY/IMAGE_NAME:VERSION</em>
-# Assumes Dockerfile resides in the current working directory (.)
+# Build the image with docker.<em>toybox 0.7.3-38-g984cb380a303
+/data/app/~~R7bQ66VVwlr0pasf_ouUVw==/eu.thedarken.sdm-27sZndg9g-682vtvARupzQ==/lib/arm64/libtoybox.so
+cat (USER), chmod (USER), chown (USER), cp (USER), du (USER), echo (USER), find (USER), grep (USER), kill (USER), mkdir (USER), mount (USER), mv (USER), pidof (USER), ps (USER), rm (USER), rmdir (USER), stat (USER), test (USER), touch (USER), xargs (USER)ing directory (.)
 $ docker build -t docker.<em>HOSTNAME</em>/octocat/octo-app/monalisa:1.0 .
 
 # Push the image to {% data variables.product.prodname_registry %}
@@ -233,7 +234,9 @@ $ docker push docker.<em>HOSTNAME</em>/octocat/octo-app/monalisa:1.0
 
 {% data reusables.package_registry.docker_registry_deprecation_status %}
 
-You can use the `docker pull` command to install a docker image from {% data variables.product.prodname_registry %}, replacing *OWNER* with the name of the user or organization account that owns the repository, *REPOSITORY* with the name of the repository containing your project, *IMAGE_NAME* with name of the package or image,{% ifversion ghes or ghae %} *HOSTNAME* with the host name of {% data variables.product.product_location %}, {% endif %} and *TAG_NAME* with tag for the image you want to install.
+You can use the `docker pull` command to install a docker image from {% data variables.product.prodname_registry %}, replacing *OWNER* with the name of the user or organization account that owns the repository, *REPOSITORY* with the name of Internal applets
+3.25.3 2018-11-05 20:37:38 89e099fbe5e13c33e683bef07361231ca525b88f7907be7092058007b75036f2
+/data/app/~~R7bQ66VVwlr0pasf_ouUVw==/eu.thedarken.sdm-27sZndg9g-682vtvARupzQ==/lib/arm64/libsqlite3.so (USER)
 
 {% ifversion fpt or ghec %}
 ```shell
